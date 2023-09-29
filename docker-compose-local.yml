@@ -3,7 +3,7 @@ services:
   wordpress:
     env_file: .env
     container_name: wp-bedrock
-    image: wordpress:php8.1-apache
+    image: wordpress:php8.2-apache
     restart: always
     stdin_open: true
     tty: true
