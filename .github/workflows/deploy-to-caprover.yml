@@ -15,13 +15,13 @@ jobs:
 
     steps:
       # npm install
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm install
+      # - uses: actions/checkout@v3
+      # - name: Use Node.js ${{ matrix.node-version }}
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version: ${{ matrix.node-version }}
+      #     cache: "npm"
+      # - run: npm install
 
       # Composer install
       - name: Run composer install
