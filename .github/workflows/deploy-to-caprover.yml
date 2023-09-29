@@ -28,7 +28,6 @@ jobs:
         uses: php-actions/composer@v6
         with:
           php_version: "${{ matrix.php-version }}"
-          working_dir: /
 
       # Compress as tar
       - uses: a7ul/tar-action@v1.1.0
